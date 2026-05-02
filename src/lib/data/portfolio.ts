@@ -108,3 +108,81 @@ export const education: EducationItem[] = [
     years: '2010 – 2016'
   }
 ];
+
+export interface AwardItem {
+  title: string;
+  org: string;
+  year: string;
+}
+
+export const awards: AwardItem[] = [
+  {
+    title: "Consistent President's Lister (7/8)",
+    org: 'Polytechnic University of the Philippines',
+    year: '2022 – 2025'
+  },
+  {
+    title: 'Outstanding Class Representative',
+    org: "Psychology Students' Society A.Y. 2024–2025",
+    year: 'Oct 2024'
+  },
+  {
+    title: 'With Honors',
+    org: 'Camp Vicente Lim Integrated School',
+    year: '2016 – 2022'
+  },
+  {
+    title: 'Qualifier, Calamba Division Schools Press Conference',
+    org: 'Campus Journalism',
+    year: '2015'
+  }
+];
+
+export interface OrgItem {
+  role: string;
+  org: string;
+  period: string;
+}
+
+export const organizations: OrgItem[] = [
+  {
+    role: 'Secretary-General',
+    org: 'Student Council, PUP San Juan',
+    period: '2025 – Present'
+  },
+  {
+    role: 'Member',
+    org: "Psychology Students' Society",
+    period: '2022 – Present'
+  },
+  {
+    role: 'Assistant Public Information Officer',
+    org: "Psychology Students' Society",
+    period: '2023 – 2024'
+  },
+  {
+    role: 'Facilitator / Teacher',
+    org: 'Destiny Leadership Training',
+    period: '2022 – 2023'
+  },
+  {
+    role: 'Treasurer',
+    org: 'Supreme Student Government (SSG)',
+    period: '2021 – 2022'
+  },
+  {
+    role: 'Secretary',
+    org: 'Kabataan Kontra Droga at Terorismo (KKDAT-Mayapa)',
+    period: '2022'
+  },
+  {
+    role: 'Year Level Representative',
+    org: 'Supreme Student Government (SSG)',
+    period: '2019 – 2020'
+  },
+  {
+    role: 'Filipino Editorial Writer',
+    org: 'Campus Journalism Club',
+    period: '2015 – 2016'
+  }
+];
