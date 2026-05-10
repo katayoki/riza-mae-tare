@@ -17,6 +17,7 @@ export const profile = {
   },
   social: {
     linkedin: '#',
+    instagram: '#',
     facebook: '#'
   }
 };
