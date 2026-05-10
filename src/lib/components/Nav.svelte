@@ -17,7 +17,7 @@
 </script>
 
 <nav class:scrolled={true}>
-  <a href="/" class="nav-logo">Riza Mae</a>
+  <a href="/" class="nav-logo">Heirriz</a>
 
   <!-- Desktop Links -->
   <ul class="nav-links">
