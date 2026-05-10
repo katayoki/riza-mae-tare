@@ -71,7 +71,7 @@
 
   <!-- Mobile Drawer -->
   {#if menuOpen}
-    <div class="mobile-overlay" onclick={closeMenu}></div>
+    <div class="mobile-overlay" onclick={closeMenu} onkeydown={closeMenu} role="button" tabindex="-1"></div>
     <ul class="mobile-menu">
       <li><a href="#about" onclick={closeMenu}>About</a></li>
       <li><a href="#skills" onclick={closeMenu}>Skills</a></li>
@@ -157,6 +157,8 @@
     justify-content: center;
     cursor: pointer;
     transition: all var(--transition);
+    position: relative;
+    z-index: 201;
   }
   .burger:hover {
     border-color: var(--sky-accent);
@@ -168,8 +170,9 @@
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.3);
-    z-index: 98;
+    z-index: 198;
     backdrop-filter: blur(2px);
+    cursor: pointer;
   }
 
   .mobile-menu {
@@ -180,7 +183,7 @@
     max-width: 300px;
     background: var(--white);
     border-left: 1px solid var(--border);
-    z-index: 99;
+    z-index: 199;
     list-style: none;
     display: flex;
     flex-direction: column;
