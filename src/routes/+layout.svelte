@@ -17,8 +17,8 @@
 </script>
 
 <svelte:head>
-  <title>John Jhed Raniel Calumpang — Web Developer</title>
-  <meta name="description" content="Portfolio of John Jhed Raniel Calumpang, an enthusiastic web developer with 5 years of experience crafting user-centric web applications." />
+  <title>Riza Mae M. Tare — Psychology Student & Student Leader</title>
+  <meta name="description" content="Portfolio of Riza Mae M. Tare, a BS Psychology student at PUP San Juan, consistent President's Lister, and passionate advocate for leadership, community, and human development." />
 </svelte:head>
 
 <Nav />
