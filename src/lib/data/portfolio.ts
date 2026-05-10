@@ -187,3 +187,32 @@ export const organizations: OrgItem[] = [
     period: '2015 – 2016'
   }
 ];
+
+export interface SeminarItem {
+  title: string;
+  org: string;
+  date: string;
+}
+
+export const seminars: SeminarItem[] = [
+  {
+    title: 'Marketing Me Live 2025: A Webinar on Personality Development & Employment Coaching',
+    org: 'Jobs180.com',
+    date: 'Sep 2025'
+  },
+  {
+    title: 'Lifeclass Batch 5',
+    org: 'Jesus Christ the Lifegiver Ministries (JCLM)',
+    date: 'Feb – Apr 2021'
+  },
+  {
+    title: 'Destiny Leadership Training Batch 13',
+    org: 'Destiny Leadership Training',
+    date: 'Apr – Jun 2022'
+  },
+  {
+    title: 'Campus Representative, Peer Helping Program',
+    org: 'Camp Vicente Lim Integrated School (CVLIS)',
+    date: '2019'
+  }
+];
